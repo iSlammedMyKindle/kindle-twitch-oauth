@@ -1,5 +1,5 @@
 {
-  "name":"twitch-oauth",
+  "name":"kindle-twitch-oauth",
   "version": "1.0.0",
   "author": "iSlammedMyKindle",
   "description": "Provides an oauth system for twitch - creates a temporary web server and returns token information based on requested scopes",
