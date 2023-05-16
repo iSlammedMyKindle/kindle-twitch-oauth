@@ -1,0 +1,15 @@
+{
+    "twitch":{
+        "client_id":"",
+        "client_secret":"",
+        "redirect_uri":"",
+        "scope":""
+    },
+    "configHttps":{
+        "use_https":false,
+        "auth_page_path":"",
+        "certpath":"",
+        "keypath":"",
+        "passphrase":""
+    }
+}

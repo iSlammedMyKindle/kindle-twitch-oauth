@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "ES2022",
+        "moduleResolution": "nodenext",
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "target": "ES2022"
+    },
+
+    "exclude": ["node_modules"],
+    "include": ["*.js", "*.mjs", "*.ts"],
+}
