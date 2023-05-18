@@ -2,3 +2,4 @@ unitTests.mjs
 index.ts
 config.json
 configExample.json
+oauthDef.d.ts
