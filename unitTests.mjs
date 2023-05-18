@@ -1,4 +1,4 @@
-import authenticateTwitch from "./index.js";
+import { authenticateTwitch } from "./index.js";
 import fs from "fs";
 
 async function configFileExists(){

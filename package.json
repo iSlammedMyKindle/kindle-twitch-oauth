@@ -1,12 +1,12 @@
 {
   "name":"kindle-twitch-oauth",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "author": "iSlammedMyKindle",
   "description": "Provides an oauth system for twitch - creates a temporary web server and returns token information based on requested scopes",
   "type":"module",
   "main":"dist/index.js",
   "scripts":{
-    "build":"npx tsc",
+    "build":"npx tsc && cp oauthDef.d.ts ./dist/index.d.ts",
     "test": "node dist/unitTests.mjs",
     "thething": "npm run build && npm run test"
   },
