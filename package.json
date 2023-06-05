@@ -5,6 +5,7 @@
   "description": "Provides an oauth system for twitch - creates a temporary web server and returns token information based on requested scopes",
   "type":"module",
   "main":"dist/index.js",
+  "types": "./types",
   "scripts":{
     "build":"npx tsc && cp oauthDef.d.ts ./dist/index.d.ts",
     "test": "node dist/unitTests.mjs",
