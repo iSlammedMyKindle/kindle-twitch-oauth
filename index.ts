@@ -5,6 +5,32 @@ import { join } from 'path';
 import https from 'https';
 import open from 'open';
 
+interface IParams
+{
+    client_id?: string,
+    scope?: string,
+    redirect_uri?: string,
+    client_secret?: string,
+}
+
+interface IHttps
+{
+    use_https?: boolean,
+    auth_page_path?: string;
+    certpath?: string,
+    keypath?: string,
+    passphrase?: string,
+}
+
+interface AuthResponse 
+{
+    accessToken: string,
+    expiresIn: number,
+    refreshToken: string,
+    scope: string[],
+    tokenType: string;
+}
+
 function underscoreToCammel(str: string): string
 {
     let res: string = '';
