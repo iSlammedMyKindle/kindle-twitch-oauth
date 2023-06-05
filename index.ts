@@ -4,7 +4,6 @@ import { URL } from 'url';
 import { join } from 'path';
 import https from 'https';
 import open from 'open';
-import {AuthResponse, IHttps, IParams} from './oauthDef.js';
 
 function underscoreToCammel(str: string): string
 {
