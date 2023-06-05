@@ -4,7 +4,6 @@ import { URL } from 'url';
 import { join } from 'path';
 import https from 'https';
 import open from 'open';
-<<<<<<< HEAD
 
 interface IParams
 {
@@ -31,8 +30,6 @@ interface AuthResponse
     scope: string[],
     tokenType: string;
 }
-=======
->>>>>>> 78cf574 (chore: update package lock)
 
 function underscoreToCammel(str: string): string
 {
