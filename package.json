@@ -7,7 +7,7 @@
   "main":"dist/index.js",
   "types": "./types",
   "scripts":{
-    "build":"npx tsc && cp oauthDef.d.ts ./dist/index.d.ts",
+    "build":"npx tsc",
     "test": "node dist/unitTests.mjs",
     "thething": "npm run build && npm run test"
   },
