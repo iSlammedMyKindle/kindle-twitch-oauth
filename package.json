@@ -1,6 +1,6 @@
 {
   "name": "kindle-twitch-oauth",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "iSlammedMyKindle",
   "description": "Provides an oauth system for twitch - creates a temporary web server and returns token information based on requested scopes",
   "type": "module",
